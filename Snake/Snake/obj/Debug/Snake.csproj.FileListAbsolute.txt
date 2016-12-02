@@ -1,0 +1,5 @@
+G:\Программирование\Project\Snake\Snake\Snake\bin\Debug\Snake.exe.config
+G:\Программирование\Project\Snake\Snake\Snake\bin\Debug\Snake.exe
+G:\Программирование\Project\Snake\Snake\Snake\bin\Debug\Snake.pdb
+G:\Программирование\Project\Snake\Snake\Snake\obj\Debug\Snake.exe
+G:\Программирование\Project\Snake\Snake\Snake\obj\Debug\Snake.pdb
