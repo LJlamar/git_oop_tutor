@@ -3,3 +3,4 @@ G:\Программирование\Project\Snake\Snake\Snake\bin\Debug\Snake.ex
 G:\Программирование\Project\Snake\Snake\Snake\bin\Debug\Snake.pdb
 G:\Программирование\Project\Snake\Snake\Snake\obj\Debug\Snake.exe
 G:\Программирование\Project\Snake\Snake\Snake\obj\Debug\Snake.pdb
+G:\Программирование\Project\Snake\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
