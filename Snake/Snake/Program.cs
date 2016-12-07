@@ -17,7 +17,46 @@ namespace Snake
             Point p2 = new Point(4, 5, '#');
             
             p2.Draw();
-            
+
+            Point p3 = new Point(7, 10, '$');
+
+           
+
+            List<int> numList = new List<int>();
+            numList.Add(0);
+            numList.Add(1);
+            numList.Add(2);
+
+            int x = numList[0];
+            int y = numList[1];
+            int z = numList[2];
+
+            //Console.WriteLine(x);
+
+            foreach(int i in numList)
+            {
+                Console.WriteLine(i);
+            }
+
+            numList.RemoveAt(0);
+
+            List<Point> plist = new List<Point>();
+            plist.Add(p1);
+            plist.Add(p2);
+            plist.Add(p3);
+                    
+            List<string> wList = new List<string>();
+            wList.Add("B");
+            wList.Add("F");
+            wList.Add("G");
+
+            foreach (string i in wList)
+            {
+                Console.WriteLine(i);
+            }
+
+            p3.Draw();
+
             Console.ReadLine();
         }
     }
