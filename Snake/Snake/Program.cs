@@ -20,7 +20,9 @@ namespace Snake
 
             Point p3 = new Point(7, 10, '$');
 
-           
+            Point p4 = new Point(5, 5, '@');
+
+            p4.Draw();
 
             List<int> numList = new List<int>();
             numList.Add(0);
@@ -44,7 +46,8 @@ namespace Snake
             plist.Add(p1);
             plist.Add(p2);
             plist.Add(p3);
-                    
+            plist.Add(p4);
+
             List<string> wList = new List<string>();
             wList.Add("B");
             wList.Add("F");
