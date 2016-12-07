@@ -18,47 +18,13 @@ namespace Snake
             
             p2.Draw();
 
-            Point p3 = new Point(7, 10, '$');
+            HorizontalLine line = new HorizontalLine(5, 10, 8, '+'); //пишем класс, который задействуем, затем название,
+            //"присваиваем" команду создать новую "переменную"?
+            line.Drow(); // собственно пишем переменную и командуем ей вывестись по методу "Drow"
 
-            Point p4 = new Point(5, 5, '@');
-
-            p4.Draw();
-
-            List<int> numList = new List<int>();
-            numList.Add(0);
-            numList.Add(1);
-            numList.Add(2);
-
-            int x = numList[0];
-            int y = numList[1];
-            int z = numList[2];
-
-            //Console.WriteLine(x);
-
-            foreach(int i in numList)
-            {
-                Console.WriteLine(i);
-            }
-
-            numList.RemoveAt(0);
-
-            List<Point> plist = new List<Point>();
-            plist.Add(p1);
-            plist.Add(p2);
-            plist.Add(p3);
-            plist.Add(p4);
-
-            List<string> wList = new List<string>();
-            wList.Add("B");
-            wList.Add("F");
-            wList.Add("G");
-
-            foreach (string i in wList)
-            {
-                Console.WriteLine(i);
-            }
-
-            p3.Draw();
+            VerticalLine lin = new VerticalLine(5, 9, 14, '+'); //пишем класс, который задействуем, затем название,
+            //"присваиваем" команду создать новую "переменную"?
+            lin.Drow(); // собственно пишем переменную и командуем ей вывестись по методу "Drow"
 
             Console.ReadLine();
         }
