@@ -10,21 +10,24 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(1, 3, '*');
             
-            p1.Draw();
-
-            Point p2 = new Point(4, 5, '#');
-            
-            p2.Draw();
-
-            HorizontalLine line = new HorizontalLine(5, 10, 8, '+'); //пишем класс, который задействуем, затем название,
+            HorizontalLine line = new HorizontalLine(0, 78, 0, '+'); //пишем класс, который задействуем, затем название,
             //"присваиваем" команду создать новую "переменную"?
             line.Drow(); // собственно пишем переменную и командуем ей вывестись по методу "Drow"
 
-            VerticalLine lin = new VerticalLine(5, 9, 14, '+'); //пишем класс, который задействуем, затем название,
+            HorizontalLine rightline = new HorizontalLine(0, 78, 24, '+'); 
+            rightline.Drow();
+
+            VerticalLine top = new VerticalLine(0, 0, 24, '+'); //пишем класс, который задействуем, затем название,
             //"присваиваем" команду создать новую "переменную"?
-            lin.Drow(); // собственно пишем переменную и командуем ей вывестись по методу "Drow"
+            top.Drow(); // собственно пишем переменную и командуем ей вывестись по методу "Drow"
+
+            VerticalLine bot = new VerticalLine(78, 0, 24, '+');
+            bot.Drow();
+
+            Point p = new Point(4, 5, '*');
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Drow();
 
             Console.ReadLine();
         }
