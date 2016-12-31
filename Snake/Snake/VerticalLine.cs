@@ -8,7 +8,7 @@ namespace Snake
 {
     class VerticalLine : Figure
     {
-        public VerticalLine(int x, int yTop, int yBot, char sym) //конструктор
+        public VerticalLine(int x, int yBot, int yTop, char sym) //конструктор
         {
             pList = new List<Point>();
             for (int y = yTop; y <= yBot; y++)
